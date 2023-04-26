@@ -1,0 +1,64 @@
+
+
+@media screen and (max-width: 1160px){
+
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        
+        margin: auto;
+        margin-top: 60px;
+    }
+    .game-container {
+          grid-template-rows: repeat(3, 18vw);
+    grid-template-columns: repeat(3, 18vw);
+    margin-left: 0px;
+    }
+
+    .game-info {
+        width: 100%;
+        margin: auto;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+
+    .win {
+        margin: 50px 0px 50px 0px;   
+    width: 60%;
+}
+
+
+.game-info h3 {
+   padding-top: 50px;
+}
+
+
+.box {
+    font-size: 17vw;
+    
+}
+
+.line {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 650px){
+      .game-container {
+          grid-template-rows: repeat(3, 27vw);
+    grid-template-columns: repeat(3, 27vw);
+    margin-left: 0px;
+    }
+
+    .box {
+        font-size: 25vw;
+    
+}
+
+nav h1 {
+    font-size: 1.8rem;
+}
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/res.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <nav  id="nav-bar">
+        <h1 >My Tic Tac Toe</h1>
+        <button onclick="myfunction()" class="change-color">Change Color</button>
+    </nav>
+    
+
+    <div class="main-container">
+        <div class="game-container">
+            <div class="line"></div>
+            <div class="box bn bt"><span class="box-text"></span></div>
+            <div class="box bt"><span class="box-text"></span></div>
+            <div class="box bt bx"><span class="box-text"></span></div>
+            <div class="box bn"><span class="box-text"></span></div>
+            <div class="box"><span class="box-text"></span></div>
+            <div class="box bx"><span class="box-text"></span></div>
+            <div class="box bn bm"><span class="box-text"></span></div>
+            <div class="box bm"><span class="box-text"></span></div>
+            <div class="box bm bx"><span class="box-text"></span></div>
+        </div>
+        <div class="win">
+            <img class="win-img" src="gif/win.gif" alt="win-file">
+            <h1 class="winner"></h1>
+        </div>
+        <div class="game-info">
+            <h3>Play Tic Tac Toe</h3>
+            <span class="info">Turn for X</span>
+            <button class="reset" id="resets">Reset</button>
+            <div class="gif">
+                <img class="gif-img" src="gif/excited1.gif" alt="gif-file">
+            </div>
+        </div>
+     
+    </div>
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
