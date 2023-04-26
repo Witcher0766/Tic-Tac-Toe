@@ -36,6 +36,8 @@ nav h1 {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
+    background-color: white;
+    color: black;
 }
 .change-color:hover {
     background-color: #f29492;
